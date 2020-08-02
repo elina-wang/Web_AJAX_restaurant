@@ -1,0 +1,45 @@
+@charset "UTF-8";
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 微軟正黑體;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: lavenderblush;
+}
+
+.title {
+  color: gray;
+  text-align: center;
+  text-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
+  padding: 20px;
+}
+
+#restaurant {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  grid-gap: 25px;
+}
+
+#restaurant #box {
+  padding: 10px;
+  border: 1px solid gray;
+}
+
+#restaurant #box h1 {
+  padding: 15px;
+}
+
+#restaurant #box h2 {
+  padding: 5px 15px;
+}
+
+#restaurant #box h3 {
+  padding: 5px 15px;
+}
+/*# sourceMappingURL=style.css.map */
